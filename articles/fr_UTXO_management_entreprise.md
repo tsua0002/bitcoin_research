@@ -1,3 +1,33 @@
+<!--
+@title: UTXO Management for Enterprise Wallets
+@author: Thomas Suau (@tsua0002)
+@date: April 9, 2025
+@version: 1.0
+@license: CC BY 4.0
+@copyright: © 2025 Thomas Suau
+@abstract: This article, based on Mark Erhardt's original work published on BitGo's blog 
+[https://blog.bitgo.com/utxo-management-for-enterprise-wallets-5357dad08dd1], explores strategic approaches 
+to Bitcoin UTXO management for enterprise-grade wallets. It analyzes two primary wallet configurations: 
+send-only hot wallets and send-and-receive hot wallets, detailing their respective advantages, limitations, 
+and optimal implementation strategies. Through case studies of SatSource and TradeCorp, the paper demonstrates 
+how techniques like transaction batching, UTXO consolidation, and adoption of native segwit addresses 
+can reduce transaction fees by up to 80% while improving operational resilience during network congestion periods. 
+Technical recommendations for each wallet type are provided, along with quantifiable metrics on cost optimization 
+and transaction efficiency.
+
+This work is licensed under the Creative Commons Attribution 4.0 International License.
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material for any purpose
+
+Under the following terms:
+- Attribution — You must give appropriate credit, provide a link to the license,
+  and indicate if changes were made. You may do so in any reasonable manner,
+  but not in any way that suggests the licensor endorses you or your use.
+
+Full license: https://creativecommons.org/licenses/by/4.0/legalcode
+-->
+
 # Gestion d'UTXOs pour Wallets d'Entreprise
 
 *Adaptation de l'[article](https://blog.bitgo.com/utxo-management-for-enterprise-wallets-5357dad08dd1) de Mark "Murch" Erhardt sur le forum BitBlog (2020) avec mise en contexte actuelle*
